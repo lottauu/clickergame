@@ -1,0 +1,44 @@
+body { background:
+    linear-gradient(to 
+    right, #bf0ef5, #f2f547);
+
+}
+
+img {
+    width: 30%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+p {
+    color: #f2f547;
+    font-weight: 900;
+    text-align: center;
+}
+
+h1 {
+    font-size: 250%;
+    color: #f2f547;
+    text-align: center;
+      
+}
+
+.plus-one {
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    animation: floatUp 1s ease-out forwards;
+}
+
+@keyframes floatUp {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
